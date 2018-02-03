@@ -59,13 +59,13 @@ function ball() {
   if (bx >= 630-15 && bx <= 630-15+18  && p1.y <= by && by <= p1.bott) {
     dirx = random(-(2*dif),-dif);
     diry = yspeed;
-    dif *= 1.05;
+    dif *= 1.08;
   }
   
   if (bx <= 50+35 && bx >= 50+30-18 && p2.y <= by && by <= p2.bott) {
     dirx = random(dif, dif*2);
     diry = yspeed;
-    dif *= 1.05;
+    dif *= 1.08;
   }
   
   if (by <= 0 ) {
